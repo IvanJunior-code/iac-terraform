@@ -1,0 +1,12 @@
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+### terraform.tfvars contem informação sensível e particular do ambiente ###
+terraform.tfvars
+# .tfstate files
+#*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+#arquivo kubectl
+kube_config.yaml
